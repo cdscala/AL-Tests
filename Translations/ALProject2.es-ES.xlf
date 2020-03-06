@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="ALProject2">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 881036430 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aw-Book</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 1328823306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ISBN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field ISBN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 329424276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 2842729223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Author - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 222758308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Publication Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Publication Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 1436795429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Publication Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Publication Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 3674226639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excerpt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Excerpt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881036430 - Field 4112194308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Page Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3909031196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aw-Book Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Aw-Book Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 983056752 - Action 3172789083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Aw-Books</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Aw-Item Card - Book Details - Action Aw-Books - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 983056752 - Action 1418893380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Aw-BookDetails</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Aw-Item Card - Book Details - Action Aw-BookDetails - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
