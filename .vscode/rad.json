@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50100,"Kind":12,"Name":"Aw-Book Details","PackagePath":"/src/pages/50100BookDetails.Page.al"},{"Id":50100,"Kind":10,"Name":"Aw-Book","PackagePath":"/src/tables/50100Book.Table.al"},{"Id":50101,"Kind":16,"Name":"Aw-Item Card - Book Details","PackagePath":"/src/page%20extension/50101ItemCardBookDetails.PageExt.al"}],"Removed":[{"Id":50100,"Kind":16,"Name":"CustomerListExt","PackagePath":"/src/CustomerListExt.al"}]}

@@ -1,5 +1,5 @@
 {
-    "mandatoryAffixes": ["Aw-","-Test"],
-    "supportedCountries": ["AR","BR"]
 
+    "supportedCountries": ["FR"],
+    "mandatoryAffixes": ["Aw-","-Test"]
 }
