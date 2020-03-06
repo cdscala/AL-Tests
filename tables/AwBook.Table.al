@@ -28,6 +28,18 @@ table 50100 "Aw-Book"
         field(50; "Publication Date"; Date)
         {
             DataClassification = CustomerContent;
+            ObsoleteState = Pending;
+            ObsoleteReason = 'This will be deprecated in version 3.0.0.0. Use field "Publication Year instead"';
+            trigger OnValidate()
+            begin
+                if "Publication Date" <> 0D then
+                    "Publication Year" := Date2DMY("Publication Date", 3);
+            end;
+        }
+        field(51; "Publication Year"; Integer)
+        {
+            DataClassification = CustomerContent;
+
         }
         field(60; Excerpt; Text[2048])
         {
