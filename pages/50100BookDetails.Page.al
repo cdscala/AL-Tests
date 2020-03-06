@@ -1,8 +1,10 @@
-page 50100 "Book Details"
+page 50100 "Aw-Book Details"
 {
     PageType = List;
-    SourceTable = Book;
+    SourceTable = "Aw-Book";
     AutoSplitKey = true;
+    UsageCategory = Lists;
+    ApplicationArea = All;
 
     layout
     {
@@ -10,20 +12,37 @@ page 50100 "Book Details"
         {
             repeater(General)
             {
-                field("Item No."; "Item No.") { }
-                field(Title; Title) { }
-                field(ISBN; ISBN) { }
-                field(Author; Author) { }
-                field(Excerpt; Excerpt) { }
-                field("Page Count"; "Page Count") { }
-                field("Publication Date"; "Publication Date") { }
+                field("Item No."; "Item No.")
+                {
+                    ApplicationArea = All;
+                }
+                field(Title; Title)
+                {
+                    ApplicationArea = All;
+                }
+                field(ISBN; ISBN)
+                {
+                    ApplicationArea = All;
+                }
+                field(Author; Author)
+                {
+                    ApplicationArea = All;
+                }
+                field(Excerpt; Excerpt)
+                {
+                    ApplicationArea = All;
+                }
+                field("Page Count"; "Page Count")
+                {
+                    ApplicationArea = All;
+                }
+                field("Publication Date"; "Publication Date")
+                {
+                    ApplicationArea = All;
+                }
 
             }
         }
     }
 
-
-
-    var
-        myInt: Integer;
 }
