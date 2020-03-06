@@ -40,6 +40,11 @@ page 50100 "Aw-Book Details"
                 {
                     ApplicationArea = All;
                 }
+                field("Publication Year"; "Publication Year")
+                {
+                    ApplicationArea = All;
+                }
+
 
             }
         }

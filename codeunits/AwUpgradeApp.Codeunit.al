@@ -1,4 +1,4 @@
-codeunit 50100 "Aw-Upgrade App"
+codeunit 50100 "Aw-Upgrade App" //solo funciona con el cambio de version
 {
     Subtype = Upgrade;
 
@@ -9,7 +9,8 @@ codeunit 50100 "Aw-Upgrade App"
 
     trigger OnUpgradePerCompany()
     begin
-
+        if (AppInfo.DataVersion().Major() = 1) and (AppInfo.AppVersion().Major() > 1) then
+            PopulateNewPublicationYearField();
     end;
 
     local procedure PopulateNewPublicationYearField()
@@ -24,6 +25,9 @@ codeunit 50100 "Aw-Upgrade App"
                 end;
             until BookDetails.Next() = 0;
     end;
+
+    var
+        AppInfo: ModuleInfo;
 
 
 }

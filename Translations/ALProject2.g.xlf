@@ -38,6 +38,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Publication Date - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 881036430 - Field 1436795429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Publication Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Aw-Book - Field Publication Year - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 881036430 - Field 3674226639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excerpt</source>
           <note from="Developer" annotates="general" priority="2"></note>
