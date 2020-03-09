@@ -1,6 +1,6 @@
-table 50100 "Aw-Book"
+table 50100 "Aw Book"
 {
-    DataClassification = ToBeClassified;
+    DataClassification = CustomerContent;
 
     fields
     {

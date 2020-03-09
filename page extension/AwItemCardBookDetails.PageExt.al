@@ -1,16 +1,16 @@
-pageextension 50101 "Aw-Item Card - Book Details" extends "Item Card"
+pageextension 50101 "Aw Item Card - Book Details" extends "Item Card"
 {
     actions
     {
         addlast(navigation)
         {
-            group("Aw-Books")
+            group("Aw Books")
             {
-                action("Aw-BookDetails")
+                action("Aw BookDetails")
                 {
                     ApplicationArea = All;
                     Image = ViewDetails;
-                    RunObject = page "Aw-Book Details";
+                    RunObject = page "Aw Book Details";
                     RunPageLink = "Item No." = field("No.");
 
                 }

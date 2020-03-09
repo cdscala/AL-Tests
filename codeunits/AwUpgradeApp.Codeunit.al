@@ -1,4 +1,4 @@
-codeunit 50100 "Aw-Upgrade App" //solo funciona con el cambio de version
+codeunit 50100 "Aw Upgrade App" //solo funciona con el cambio de version
 {
     Subtype = Upgrade;
 
@@ -15,7 +15,7 @@ codeunit 50100 "Aw-Upgrade App" //solo funciona con el cambio de version
 
     local procedure PopulateNewPublicationYearField()
     var
-        BookDetails: Record "Aw-Book";
+        BookDetails: Record "Aw Book";
     begin
         if BookDetails.FindSet() then
             repeat

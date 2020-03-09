@@ -1,7 +1,7 @@
-page 50100 "Aw-Book Details"
+page 50100 "Aw Book Details"
 {
     PageType = List;
-    SourceTable = "Aw-Book";
+    SourceTable = "Aw Book";
     AutoSplitKey = true;
     UsageCategory = Lists;
     ApplicationArea = All;
@@ -15,9 +15,11 @@ page 50100 "Aw-Book Details"
                 field("Item No."; "Item No.")
                 {
                     ApplicationArea = All;
+                    //ApplicationArea = "Aw BooksBasic";
                 }
                 field(Title; Title)
                 {
+                    //ApplicationArea = AwBooksBasic;
                     ApplicationArea = All;
                 }
                 field(ISBN; ISBN)
